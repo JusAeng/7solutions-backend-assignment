@@ -71,7 +71,7 @@ func LeftRightEqual() string {
 			shiftGraph(temp,tempShift*-1)			
 			result += packToString(temp[1:prevVup-prevVdown+1])
 			
-			// ดึกก้านข้าว
+			// ดึงก้านขวา
 			tempShift = temp[len(temp)-1]
 			shiftGraph(temp[prevVup-prevVdown:],tempShift*-1)			
 			result += packToString(temp[prevVup-prevVdown+1:])
