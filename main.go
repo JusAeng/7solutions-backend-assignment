@@ -1,13 +1,13 @@
 package main
 
 import (
-	// "fmt"
-
 	"github.com/JusAeng/7solutions-backend-assignment/problems"
 )
 
 func main() {
-	// problems.BestPath()
+	// โจทย์ข้อ 1
+	problems.BestPath()
+
+	// โจทย์ข้อ 2
 	// problems.LeftRightEqual()
-	problems.PieFireDire()
 }
