@@ -9,5 +9,5 @@ import (
 func main() {
 	// problems.BestPath()
 	// problems.LeftRightEqual()
-	problems.PieFireDire()
+	problems.PieFireDire("https://baconipsum.com/api/?type=meat-and-filler&paras=99&format=text")
 }
