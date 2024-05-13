@@ -49,7 +49,7 @@ func BestPath() int{
 	for j := 1; j < len(levels[len(levels)-1]); j++ {
 		maxSum = max(maxSum, dp[len(levels)-1][j])
 	}
-
+	fmt.Println(maxSum)
 	return maxSum
 }
 
